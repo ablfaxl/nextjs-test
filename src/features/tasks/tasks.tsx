@@ -14,7 +14,7 @@ const Tasks = () => {
   };
 
   return (
-    <div className="container mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:pt-20 font-[family-name:var(--font-geist-sans)]">
+    <section className="container px-40 mx-auto items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:pt-20 font-[family-name:var(--font-geist-sans)]">
       <div className="flex mb-4">
         <Input
           type="text"
@@ -29,7 +29,7 @@ const Tasks = () => {
       </div>
 
       <TaskBoard tasks={tasks} removeTask={removeTask} moveTask={moveTask} />
-    </div>
+    </section>
   );
 };
 
